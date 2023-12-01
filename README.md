@@ -2,7 +2,7 @@
 
 Ce programme Python est conçu pour reproduire la fonctionnalité de la commande `ls` dans un terminal Unix. Il liste tous les fichiers et répertoires dans le répertoire courant.
 
-!GitHub stars
+
 
 
 ### Prérequis
