@@ -27,7 +27,7 @@ jobs:
       # Cette étape exécute les tests
       - name: Run tests
         run: |
-          cd ../../src/
+          cd src
           python main.py
 
       # Cette étape exécute le linter
