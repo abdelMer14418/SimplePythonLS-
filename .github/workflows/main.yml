@@ -1,0 +1,35 @@
+# Nom du workflow
+name: Python application test
+
+# Déclencheur pour le workflow, ici il se déclenchera à chaque push et à chaque Pull Request
+on:
+  push:
+  pull_request:
+
+# Les jobs sont les tâches que le workflow va exécuter
+jobs:
+  build:
+
+    # Spécifie sur quel type de runner (machine virtuelle) le job doit s'exécuter
+    runs-on: ubuntu-latest
+
+    # Les étapes sont les commandes qui seront exécutées dans le job
+    steps:
+      # Cette étape utilise une action GitHub qui vérifie votre dépôt sur le runner
+      - uses: actions/checkout@v2
+
+      # Cette étape utilise une action GitHub qui configure Python sur le runner
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      # Cette étape exécute les tests
+      - name: Run tests
+        run: |
+          python main.py
+
+      # Cette étape exécute le linter
+      - name: Run linter
+        run: |
+          flake8
