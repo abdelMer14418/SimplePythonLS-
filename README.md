@@ -30,4 +30,10 @@ Assurez-vous d'avoir Python installé sur votre système.
 
     ```
 
+# Auteur
+Abdelhak MERABTENE
+
+# Remarque
+N'hésitez surtout pas de contribuer à ce projet !
+
    
