@@ -2,11 +2,9 @@ import os
 
 
 def list_files():
-    # Obtenir la liste des fichiers et répertoires
-    # dans le répertoire actuel
+    
     files = os.listdir()
 
-    # Afficher chaque fichier ou répertoire
     for file in files:
         print(file)
 
@@ -16,11 +14,9 @@ class Lister:
         pass
 
     def list_files(self):
-        # Obtenir la liste des fichiers et répertoires
-        # dans le répertoire actuel
+       
         files = os.listdir()
 
-        # Afficher chaque fichier ou répertoire
         for file in files:
             print(file)
 
