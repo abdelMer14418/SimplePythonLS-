@@ -27,3 +27,5 @@ class Lister:
 
 if __name__ == "__main__":
     list_files()
+
+print("Rachid est passé par là")
