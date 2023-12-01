@@ -27,4 +27,3 @@ if __name__ == "__main__":
 
 print("Rachid est passé par là")
 
-# New Line
