@@ -27,8 +27,3 @@ class Lister:
 
 if __name__ == "__main__":
     list_files()
-
-
-# Notez la nouvelle ligne à la fin du fichier
-
-
